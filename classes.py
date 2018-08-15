@@ -89,7 +89,7 @@ def first_part():
 
 
 def fight(enemy):
-    count = 0 
+    count = 0
     damage = random.randint(player_class.min_attack, player_class.max_attack)
     enemy.hp -= damage
     if enemy.hp<0:
